@@ -1,1 +1,18 @@
+body{
+    background-color: rgb(40, 59, 94);
+}
 
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    border: solid 3px;
+    background-color: rgb(124, 222, 255);
+}
+
+p{
+    color: white;
+    text-align: center;
+    border: solid 3px;
+    background-color: rgb(134, 225, 255);
+}
