@@ -1,6 +1,17 @@
-body{
+index-body{
+    background-color: rgb(40, 94, 45);
+    background-size: cover;
+}
+kauri-body{
     background-color: rgb(40, 94, 45);
 }
+pohutukawa-body{
+    background-color: rgb(40, 94, 45);
+}
+kowhai-body{
+    background-color: rgb(40, 94, 45);
+}
+
 
 h1{
     text-align: center;
@@ -17,8 +28,24 @@ p{
     border: solid 3px;
     background-color: rgb(84, 194, 108);
 }
-img{
+.big-img{
   width: 500px;
+  float: left;  
+  margin: 10px;
+  border-radius: 30px;
+  border: solid 3px;
+  color: white
+}
+.med-img{
+  width: 250px;
+  float: left;  
+  margin: 10px;
+  border-radius: 30px;
+  border: solid 3px;
+  color: white
+}
+.small-img{
+  width: 100px;
   float: left;  
   margin: 10px;
   border-radius: 30px;
