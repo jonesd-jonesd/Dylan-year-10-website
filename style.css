@@ -1,15 +1,14 @@
-index-body{
-    background-color: rgb(40, 94, 45);
-    background-size: cover;
-}
-kauri-body{
+.index-body{
     background-color: rgb(40, 94, 45);
 }
-pohutukawa-body{
-    background-color: rgb(40, 94, 45);
+.kauri-body{
+    background-color: rgb(62, 94, 40);
 }
-kowhai-body{
-    background-color: rgb(40, 94, 45);
+.pohutukawa-body{
+    background-color: rgb(156, 57, 57);
+}
+.kowhai-body{
+    background-color: rgb(216, 241, 124);
 }
 
 
