@@ -1,5 +1,5 @@
 .index-body{
-    background-color: rgb(40, 94, 45);
+    background-color: rgb(161, 255, 170);
 }
 .kauri-body{
     background-color: rgb(62, 94, 40);
@@ -8,9 +8,8 @@
     background-color: rgb(156, 57, 57);
 }
 .kowhai-body{
-    background-color: rgb(216, 241, 124);
+    background-color: rgb(180, 201, 89);
 }
-
 
 h1{
     text-align: center;
@@ -18,36 +17,40 @@ h1{
     color: white;
     border: solid 3px;
     background-color: rgb(84, 194, 108);
+    margin: 0;
 }
 
 p{
     color: white;
     font-size:20px;
     text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.box{
     border: solid 3px;
     background-color: rgb(84, 194, 108);
 }
-.big-img{
-  width: 500px;
-  float: left;  
-  margin: 10px;
-  border-radius: 30px;
-  border: solid 3px;
-  color: white
+.attribution{
+    font-style: italic;
+    font-size: 15px;
 }
-.med-img{
-  width: 250px;
+
+img{
+  max-width: 100%;
+  height:auto;
   float: left;  
   margin: 10px;
   border-radius: 30px;
   border: solid 3px;
-  color: white
+  color: white;
+  margin-bottom: 0px;
 }
-.small-img{
-  width: 100px;
-  float: left;  
-  margin: 10px;
-  border-radius: 30px;
-  border: solid 3px;
-  color: white
+.flex-container {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
 }
